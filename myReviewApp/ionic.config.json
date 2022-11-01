@@ -1,0 +1,7 @@
+{
+  "name": "myReviewApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
