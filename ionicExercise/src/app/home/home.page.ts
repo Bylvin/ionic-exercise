@@ -13,6 +13,5 @@ export class HomePage {
 
   async ionViewDidEnter()
   {
-    const contacts: Contact[] = await this.contactDao.all();
   }
 }
