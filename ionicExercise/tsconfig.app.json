@@ -3,7 +3,14 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+
+    // modif ini
+    "types": ["node"],
+
+    // tambahin ini
+    "paths": {
+      "typeorm": ["node_modules/typeorm/browser"]
+    }
   },
   "files": [
     "src/main.ts",
